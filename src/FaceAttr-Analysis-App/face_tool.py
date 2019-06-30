@@ -48,8 +48,8 @@ visual_threshold = 0.3
 cuda = True
 
 CUDA_DEVICE_1 = 0  # 运行人脸检测模型  并行1
-CUDA_DEVICE_2 = 4  # 运行人脸检测模型  并行2
-CUDA_DEVICE_3 = 7  # 运行人脸属性分类模型
+CUDA_DEVICE_2 = 1  # 运行人脸检测模型  并行2
+CUDA_DEVICE_3 = 2  # 运行人脸属性分类模型
 # 人脸属性分类的路径
 faceAttr_path = "/data2/faceAttr/FaceAttr-Analysis-App/se_resnet101.pth"
 
